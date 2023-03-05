@@ -92,13 +92,14 @@ body {
    line-height: 1.07;
    letter-spacing: 0.02em;
    color: #ffffff;
+   text-align: center;
 }
 
 .hero__button {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
    font-weight: 500;
-   letter-spacing: 1.5;
+   line-height: 1.5;
    letter-spacing: 0.04em;
    color: #ffffff;
    cursor: pointer;
@@ -109,6 +110,7 @@ body {
    font-size: 20px;
    font-weight: 500;
    line-height: 1.2;
+   letter-spacing: 0.02em;
    color: var(--clr-navy-blue);
 }
 
@@ -116,27 +118,30 @@ body {
 .about-us__title {
    font-size: 36px;
    font-weight: 700;
-   line-height: 1.1;
+   line-height: 1.11;
    color: var(--clr-navy-blue);
    text-transform: capitalize;
+   text-align: center;
 }
 
 /* section OUR TEAM */
 .our-team__title {
    font-size: 36px;
    font-weight: 700;
-   line-height: 1.1;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
    color: var(--clr-navy-blue);
    text-transform: capitalize;
+   text-align: center;
 }
 
 .our-team__item-title {
    font-size: 20px;
    font-weight: 500;
    line-height: 1.2;
+   letter-spacing: 0.02em;
    color: var(--clr-navy-blue);
 }
-
 
 /* section PROJECTS */
 .filter__button {
