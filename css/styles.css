@@ -182,6 +182,6 @@ body {
    background-color: var(--clr-navy-blue);
 }
 
-.footer__logo-span {
+.header__logo .footer__logo-span {
    color: var(--clr-cloud);
 }
