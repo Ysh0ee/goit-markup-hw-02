@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+   --clr-iris: #4d5ae5;
+   --clr-ocean: #404bbf;
+   --clr-navy-blue: #2e2f42;
+   --clr-green: #31d0aa;
+   --clr-slate: #434455;
+   --clr-light-slate: #8e8f99;
+   --clr-cornflower: #e7e9fc;
+   --clr-cloud: #f4f4fd;
+   --clr-navy-blue-modal: rgba(46, 47, 66, 0.4);
+   --clr-grey: rgba(46, 47, 66, 0.7);
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   line-height: calc(24 / 16);
+   letter-spacing: 2%;
+   color: var(--clr-slate);
+}
+
+/* HEADER */
+.header__menu-list,
+.header__contacts-list {
+   list-style: none;
+}
+
+.header__menu-link,
+.header__contacts-link {
+   font-family: inherit;
+   font-weight: 500;
+   font-style: normal;
+   color: var(--clr-navy-blue);
+   text-decoration: none;
+}
+
+.header__contacts-link {
+   font-weight: 400;
+}
+
+.header__menu-link:hover,
+.header__menu-link:focus {
+   color: var(--clr-iris);
+}
+
+.header__contacts-link:hover,
+.header__contacts-link:focus {
+   color: var(--clr-ocean);
+}
+
+/* section PROJECTS */
+.projects__filter-list {
+   list-style: none;
+}
+
+.filter__button {
+   padding: 16px 32px;
+   font-family: inherit;
+   font-weight: 500;
+   letter-spacing: 4%;
+   color: #ffffff;
+   background-color: var(--clr-iris);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   border: none;
+   cursor: pointer;
+}
+
+.filter__button:hover,
+.filter__button:focus {
+   background-color: var(--clr-ocean);
+}
+
+/* section PROJECT ITEM */
+
+.item-projects__title {
+   font-size: 20px;
+   font-weight: 500;
+   color: var(--clr-navy-blue);
+}
