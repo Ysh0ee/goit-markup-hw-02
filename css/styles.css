@@ -52,11 +52,6 @@ body {
    color: var(--clr-navy-blue);
 }
 
-.header__menu-item:hover,
-.header__menu-item:focus {
-   color: var(--clr-ocean);
-}
-
 .header__menu-item a,
 .header__contacts-item a {
    font-family: inherit;
@@ -66,15 +61,15 @@ body {
    text-decoration: none;
 }
 
-.header__contacts-link {
+.header__menu-link:hover,
+.header__menu-link:focus {
+   color: var(--clr-ocean);
+}
+
+.header__contacts-item .header__contacts-link {
    font-weight: 400;
    letter-spacing: 0.02em;
    color: var(--clr-slate);
-}
-
-.header__menu-link:hover,
-.header__menu-link:focus {
-   color: var(--clr-iris);
 }
 
 .header__contacts-link:hover,
