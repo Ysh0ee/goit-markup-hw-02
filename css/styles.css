@@ -19,10 +19,42 @@ body {
    color: var(--clr-slate);
 }
 
-/* HEADER */
-.header__menu-list,
-.header__contacts-list {
+/* COMMON */
+.link {
+   text-decoration: none;
+}
+
+.list {
    list-style: none;
+}
+
+/* HEADER */
+
+.header__logo {
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   font-weight: 800;
+   line-height: calc(24 / 18);
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--clr-iris);
+}
+
+.header__logo span {
+   color: var(--clr-navy-blue);
+}
+
+.header__menu-item {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--clr-navy-blue);
+}
+
+.header__menu-item:hover,
+.header__menu-item:focus {
+   color: var(--clr-ocean);
 }
 
 .header__menu-link,
@@ -48,11 +80,11 @@ body {
    color: var(--clr-ocean);
 }
 
-/* section PROJECTS */
-.projects__filter-list {
-   list-style: none;
+.header__contacts {
+   font-style: normal;
 }
 
+/* section PROJECTS */
 .filter__button {
    padding: 16px 32px;
    font-family: inherit;
