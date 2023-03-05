@@ -14,8 +14,8 @@
 body {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
-   line-height: calc(24 / 16);
-   letter-spacing: 2%;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
    color: var(--clr-slate);
 }
 
@@ -80,6 +80,63 @@ body {
 .header__contacts {
    font-style: normal;
 }
+
+/* section HERO */
+.hero {
+   background-color: var(--clr-navy-blue);
+}
+
+.hero__title {
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 1.07;
+   letter-spacing: 0.02em;
+   color: #ffffff;
+}
+
+.hero__button {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+/* section FEATURES */
+.features__title {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   color: var(--clr-navy-blue);
+}
+
+/* section ABOUT US */
+.about-us__title {
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.1;
+   color: var(--clr-navy-blue);
+   text-transform: capitalize;
+}
+
+/* section OUR TEAM */
+.our-team__title {
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.1;
+   color: var(--clr-navy-blue);
+   text-transform: capitalize;
+}
+
+.our-team__item-title {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   color: var(--clr-navy-blue);
+}
+
 
 /* section PROJECTS */
 .filter__button {
