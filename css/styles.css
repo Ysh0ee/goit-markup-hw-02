@@ -169,3 +169,8 @@ body {
    font-weight: 500;
    color: var(--clr-navy-blue);
 }
+
+/* FOOTER */
+.footer {
+   background-color: var(--clr-navy-blue);
+}
